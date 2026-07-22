@@ -1,0 +1,173 @@
+############################################################
+# Enterprise IAM Azure Project - .gitignore
+############################################################
+
+###############################
+# Azure CLI
+###############################
+.azure/
+.azureclitask/
+.azureProfile.json
+
+###############################
+# Azure PowerShell
+###############################
+AzContext.json
+AzureRmContext.json
+
+###############################
+# Secrets & Credentials
+###############################
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+*.cer
+*.crt
+*.jks
+
+###############################
+# Azure Configuration
+###############################
+local.settings.json
+appsettings.Development.json
+secrets.json
+
+###############################
+# Logs
+###############################
+*.log
+logs/
+*.etl
+
+###############################
+# Reports (Generated Files)
+###############################
+Reports/*.csv
+Reports/*.xlsx
+Reports/*.json
+Reports/*.xml
+Reports/*.html
+
+# Uncomment if you don't want to upload reports
+# Reports/
+
+###############################
+# Temporary Files
+###############################
+*.tmp
+*.temp
+*.bak
+*.old
+*.cache
+
+###############################
+# Operating System Files
+###############################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+###############################
+# Visual Studio Code
+###############################
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.history/
+
+###############################
+# Visual Studio
+###############################
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+###############################
+# PowerShell
+###############################
+*.ps1xml
+
+###############################
+# Python
+###############################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+
+###############################
+# Terraform (Future Enhancement)
+###############################
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfvars
+override.tf
+override.tf.json
+crash.log
+
+###############################
+# Bicep Build Files
+###############################
+*.bicepconfig.json
+
+###############################
+# Azure ARM Templates
+###############################
+*.parameters.json
+
+###############################
+# Sensitive Exports
+###############################
+*subscription*.json
+*tenant*.json
+*credentials*.json
+*secret*.json
+*password*.json
+*connectionstring*.json
+
+###############################
+# Certificates
+###############################
+Certificates/
+*.pfx
+*.pem
+*.cer
+
+###############################
+# Node.js (if used later)
+###############################
+node_modules/
+
+###############################
+# ZIP Files
+###############################
+*.zip
+*.7z
+*.rar
+
+###############################
+# Backup Files
+###############################
+backup/
+backups/
+*.backup
+
+###############################
+# Generated Architecture Files
+###############################
+*.drawio.bak
+
+############################################################
+# End of File
+############################################################
